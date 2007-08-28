@@ -8,7 +8,7 @@
   <packaging>maven-plugin</packaging>
   <name>maven-sar-plugin</name>
   <description>This plugin generates JBoss Service Archive (sar) files.</description>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.9</version>
   <inceptionYear>2007</inceptionYear>
   <url>http://maven-sar.sourceforge.net/</url>
   <scm>
