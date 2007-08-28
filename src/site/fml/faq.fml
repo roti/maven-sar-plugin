@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<faqs id="FAQ" title="Frequently Asked Questions">
+  <part id="General">
+    <title>General</title>
+    <faq id="what-is-a-sar-file">
+      <question>
+        What is a SAR file?
+      </question>
+      <answer>
+        A JBoss Service Archive (or SAR for short) is packaged like a normal JAR file, but
+        it has some special properties. It contains a <b>META-INF/jboss-service.xml</b>
+        file which tells <a href="http://jboss.org">JBoss</a> how to initialize
+        a service. SAR files may also contain other XML configuration files.
+      </answer>
+    </faq>
+  </part>
+  <part id="gov-oss">
+    <title>Vermont and Open Source</title>
+    <faq id="why-oss">
+      <question>
+       Why is maven-sar-plugin open source software?
+      </question>
+      <answer>
+       <ul>
+        <li>
+         <b>Cost</b> - It takes very little effort and doesn't cost the state anything
+         to publish the source code, we use a free service called
+         <a href="http://sf.net">Source Forge</a>. If we receive source code contributions
+         from outside developers it will actually result in a savings because the contributed
+         code is code that Vermont didn't have to pay developers to write.
+        </li>
+        <li>
+         <b>To be a good Neighbor</b> - Many people use maven, jboss, and hibernate. Sharing
+         the code with others is a nice thing to do because it helps them accomplish their
+         goals while reducing their costs. Additionally, other people could adapt and enhance
+         the code to meet their needs.
+        </li>
+        <li>
+         <b>Education</b> - Vermonters who are studying Java software development could learn
+         by studying our code. Developers of open source software could legally copy and use
+         the code in their projects.
+        </li>
+        <li>
+         <b>Better Software</b> - With more people using our code and more developers looking at our
+         code, bugs would be more easily spotted and fixed.
+        </li>
+       </ul>
+      </answer>
+    </faq>
+    
+    <faq id="other-vt-oss">
+      <question>
+       Are there other State of Vermont or the Vermont Department of Taxes Open Source projects?
+      </question>
+      <answer>
+       The Vermont Department of Taxes maintains <a href="http://locale4j.sourceforge.net/">locale4j</a> and
+       <a href="http://gateway.sourceforge.net/">gateway</a>.
+      </answer>
+    </faq>
+    
+    <faq id="future-vt-oss">
+      <question>
+       Does the State of Vermont or the Vermont Department of Taxes plan on releasing any other Open Source Software?
+      </question>
+      <answer>
+       At this time there are no specific plans that we know of.
+      </answer>
+    </faq>
+
+  </part>  
+</faqs>

@@ -1,0 +1,50 @@
+ ------
+ Building a SAR and a JAR
+ ------
+ Tom Cort <tom.cort@state.vt.us>
+ ------
+ 28 August 2007
+ ------
+
+Building a SAR and a JAR
+
+  This example <<pom.xml>> demonstrates what you need in order to have <<maven>> generate a
+  sar file using <<maven-sar-plugin>> <and> execute the regular JAR pacakging.
+
++-----------------+
+<project>
+  ...
+  <build>
+    ...
+    <plugins>
+      ...
+      <plugin>
+        <groupId>net.sf.maven-sar</groupId>
+        <artifactId>maven-sar-plugin</artifactId>
+        <version>0.9</version>
+        <extensions>true</extensions>
+      </plugin>
+      ...
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>jar</goal>
+                </goals>
+                <phase>package</phase>
+            </execution>
+        </executions>
+        <configuration>
+          <classifier>jar</classifier>
+        </configuration>
+      </plugin>  
+      ...
+    </plugins>
+    ...
+  </build>
+  ...
+  <packaging>sar</packaging>
+  ...
+</project>
++-----------------+
