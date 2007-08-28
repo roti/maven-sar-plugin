@@ -1,0 +1,8 @@
+<archetype>
+  <id>maven-archetype-har</id>
+  <resources>
+    <resource>src/main/resources/login-config.xml</resource>
+    <resource>src/main/resources/META-INF/jboss-service.xml</resource>
+  </resources>
+</archetype>
+

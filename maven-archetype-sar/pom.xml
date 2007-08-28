@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sf.maven-sar</groupId>
+  <artifactId>maven-archetype-sar</artifactId>
+  <version>0.9</version>
+  <name>maven-archetype-sar</name>
+  <url>http://maven-sar.sourceforge.net</url>
+  <inceptionYear>2007</inceptionYear>
+  <scm>
+    <connection>scm:svn:https://maven-sar.svn.sourceforge.net/svnroot/maven-sar/trunk/maven-archetype-sar</connection>
+    <developerConnection>scm:svn:https://maven-sar.svn.sourceforge.net/svnroot/maven-sar/trunk/maven-archetype-sar</developerConnection>
+    <url>http://maven-sar.svn.sourceforge.net/viewvc/maven-sar/trunk/maven-archetype-sar</url>
+  </scm>
+  <ciManagement>
+    <system>continuum</system>
+    <url>http://gateway-demo.osuosl.org/continuum</url>
+  </ciManagement>
+  <organization>
+    <name>Vermont Department of Taxes</name>
+    <url>http://tax.vermont.gov/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Mozilla Public License Version 1.1</name>
+      <url>http://www.mozilla.org/MPL/MPL-1.1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <distributionManagement>
+    <repository>
+      <id>repository</id>
+      <name>Repository</name>
+      <url>scp://shell.sf.net/home/groups/m/ma/maven-sar/maven/upload-repo/</url>
+    </repository>
+  </distributionManagement>
+  <mailingLists>
+    <mailingList>
+      <name>maven-sar-discuss Mailing list</name>
+      <subscribe>http://lists.sourceforge.net/mailman/listinfo/maven-sar-discuss</subscribe>
+      <unsubscribe>http://lists.sourceforge.net/mailman/listinfo/maven-sar-discuss</unsubscribe>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_name=maven-sar-discuss</archive>
+      <post>maven-sar-discuss@lists.sourceforge.net</post>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <id>tcort</id>
+      <name>Tom Cort</name>
+      <email>tom.cort@state.vt.us</email>
+      <organization>Vermont Department of Taxes</organization>
+      <organizationUrl>http://tax.vermont.gov/</organizationUrl>
+      <timezone>-4</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>mjgagne</id>
+      <name>Matt Gagne</name>
+      <email>matt.gagne@state.vt.us</email>
+      <organization>Vermont Department of Taxes</organization>
+      <organizationUrl>http://tax.vermont.gov/</organizationUrl>
+      <timezone>-4</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>skasulka</id>
+      <name>Shawn Kasulka</name>
+      <email>shawn.kasulka@state.vt.us</email>
+      <organization>Vermont Department of Taxes</organization>
+      <organizationUrl>http://tax.vermont.gov/</organizationUrl>
+      <timezone>-4</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>SourceForge</system>
+    <url>http://sourceforge.net/tracker/?group_id=204436</url>
+  </issueManagement>
+</project>
