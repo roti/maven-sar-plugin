@@ -1,0 +1,28 @@
+<document>
+  <properties>
+    <author email="tom.cort@state.vt.us">Tom Cort</author>
+    <title>Roadmap</title>
+  </properties>
+  <body>
+    <section name="Roadmap">
+
+      <p>
+        This page is intended to give people the "big picture" of where
+        the project is and where it is going.
+      </p>
+
+      <subsection name="Current Status">
+        <p>
+          We've released version 0.9 and have begun the development of version 1.0.
+        </p>
+      </subsection>
+
+	  <subsection name="Future Plans">
+        <ul>
+          <li>Unit Tests</li>
+        </ul>
+      </subsection>
+
+    </section>
+  </body>
+</document>

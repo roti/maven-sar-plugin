@@ -1,0 +1,83 @@
+ ------
+ Usage
+ ------
+ Tom Cort <tom.cort@state.vt.us>
+ ------
+ 24 August 2007
+ ------
+
+Usage
+
+  The following document explains the process of setting up a maven
+  project that produces sar files using <<maven-sar-plugin>>. If you
+  want to get up and running quickly, try using
+  {{{examples/using-maven-archetype-sar.html}maven-archetype-sar}}.
+
+* File Layout
+
+  Below is an example file layout for a sar project. Note, 
+  <<jboss-service.xml>> is a required resource and must appear in 
+  <<META-INF>>.
+
++-----------------+
+.
+ |-- src
+ |   `-- main
+ |       `-- resources
+ |           |-- META-INF
+ |           |   `-- jboss-service.xml
+ |           `-- some-conf-file.xml
+  `-- pom.xml
++-----------------+
+
+* Add the Plugin
+
+  You need to reference the plugin in the <pom.xml> for your project. 
+  To do so, add the following to the <pom.xml> for your project.
+
++-----------------+
+<project>
+  ...
+  <build>
+    ...
+    <plugins>
+      ...
+      <plugin>
+        <groupId>net.sf.maven-sar</groupId>
+        <artifactId>maven-sar-plugin</artifactId>
+        <version>0.9</version>
+        <extensions>true</extensions>
+      </plugin>
+      ...
+    </plugins>
+    ...
+  </build>
+  ...
+</project>
++-----------------+
+
+* Set Packaging to sar
+
+  Simply listing <<maven-sar-plugin>> as a build plugin will not cause 
+  it to be executed during packaging. You must explicitly set 
+  \<packaging/\> to <<sar>>.
+
++-----------------+
+<project>
+  ...
+  <packaging>sar</packaging>
+  ...
+</project>
++-----------------+
+
+* Generate the sar
+
+  If \<packaging/\> is set to <<sar>>, then this plugin will be executed
+  executed during the <package> phase. To execute the plugin manually,
+  use this command:
+
++-----------------+
+  mvn package
++-----------------+
+
+  The generated sar file will be placed in the <<target>> directory.

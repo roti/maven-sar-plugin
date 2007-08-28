@@ -1,0 +1,23 @@
+ ------
+ Using maven-archetype-sar
+ ------
+ Tom Cort <tom.cort@state.vt.us>
+ ------
+ 28 August 2007
+ ------
+
+Using maven-archetype-sar
+
+  The {{{http://maven.apache.org/plugins/maven-archetype-plugin}maven-archetype-plugin}}
+  along with our <<maven-archetype-sar>> package provides an easy way to seed your new
+  sar project. Use the command below, filling in your group and artifact id, to generate
+  a proper <<pom.xml>> and file layout for the <<maven-sar-plugin>>.
+
++-----------------+
+mvn archetype:create                        \
+  -DarchetypeGroupId=net.sf.maven-sar       \
+  -DarchetypeArtifactId=maven-archetype-sar \
+  -DarchetypeVersion=0.9                    \
+  -DgroupId=[your project's group id]       \
+  -DartifactId=[your project's artifact id]
++-----------------+

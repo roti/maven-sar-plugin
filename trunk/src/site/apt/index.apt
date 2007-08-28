@@ -1,0 +1,30 @@
+ ------
+ Introduction
+ ------
+ Tom Cort <tom.cort@state.vt.us>
+ ------
+ 28 August 2007
+ ------
+
+maven-sar-plugin
+
+  This plugin generates JBoss Service Archive (SAR) files.
+
+* Goals Overview
+
+  * {{{sar-mojo.html}sar:sar}} Creates a JBoss Service Archive.
+
+* Usage
+
+  Instructions on how to use the <<maven-sar-plugin>> can be found {{{usage.html}here}}.
+
+* Examples
+
+  To provide you with better understanding of some usages of the <<maven-sar-plugin>>,
+  you can take a look into the following examples:
+
+  * {{{examples/building-a-sar.html}Creating a sar file}}
+
+  * {{{examples/building-a-sar-and-a-jar.html}Creating a sar file and a jar file}}
+
+  * {{{examples/using-maven-archetype-sar.html}Using maven-archetype-sar}}

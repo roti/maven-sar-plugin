@@ -1,0 +1,37 @@
+ ------
+ Building a SAR
+ ------
+ Tom Cort <tom.cort@state.vt.us>
+ ------
+ 28 August 2007
+ ------
+
+Building a SAR
+
+  This is the de facto example for <<sar>> packaging. This example <<pom.xml>> demonstrates
+  what you need in order to have <<maven>> generate a sar file using <<maven-sar-plugin>>.
+  The <<\<extensions/\>>> element must be present and must be set to <true> for the plugin
+  to operate correctly. Also remember to set <<\<packaging/\>>> to <<sar>>.
+
++-----------------+
+<project>
+  ...
+  <build>
+    ...
+    <plugins>
+      ...
+      <plugin>
+        <groupId>net.sf.maven-sar</groupId>
+        <artifactId>maven-sar-plugin</artifactId>
+        <version>0.9</version>
+        <extensions>true</extensions>
+      </plugin>
+      ...
+    </plugins>
+    ...
+  </build>
+  ...
+  <packaging>sar</packaging>
+  ...
+</project>
++-----------------+

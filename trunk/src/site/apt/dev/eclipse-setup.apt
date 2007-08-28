@@ -1,0 +1,116 @@
+ ------
+ Eclipse Setup
+ ------
+ Tom Cort <tom.cort@state.vt.us>
+ ------
+ 28 August 2007
+ ------
+
+Eclipse Setup
+
+* Overview
+
+  This document explains how to set up your development environment to 
+  develop the <<maven-sar-plugin>> itself. While these instructions may
+  be useful for developing other software, none of the things mentioned 
+  on this page are required to develop software which uses the
+  <<maven-sar-plugin>>.
+
+* Install the Subclipse Plugin
+
+   * Go to <Help> -\> <Software Updates> -\> <Find and Install>...
+   
+   * Choose <Search for new features to install> and click <Next>
+   
+   * Click on the <New Remote Site...> button.
+
++-----------------+
+Name: Subclipse 1.2.x (Eclipse 3.2+)
+URL:  http://subclipse.tigris.org/update_1.2.x
++-----------------+
+
+   * Click <Finish>
+   
+   * Check <Subclipse> and click <next>
+   
+   * Accept the license agreement
+   
+   * Click <Finish>
+   
+   * Click <Install All>
+   
+   * Restart Eclipse
+
+* Install the Maven Plugin
+
+   * Go to <Help> -\> <Software Updates> -\> <Find and Install>...
+   
+   * Choose <Search for new features to install> and click <Next>
+   
+   * Click on the <New Remote Site...> button.
+
++-----------------+
+Name: m2eclipse-dev
+URL:  http://m2eclipse.codehaus.org/update-dev/
++-----------------+
+
+   * Click <Finish>
+   
+   * Expand the <m2eclipse-dev> list
+   
+   * Check <Maven 2.0 Integration> and click <next>
+   
+   * Accept the license agreement
+   
+   * Click <Finish>
+   
+   * Click <Install All>
+   
+   * Restart Eclipse
+   
+* Import the Project
+
+   * Right click anywhere inside the <Package Explorer> panel.
+   
+   * Select <Import...>
+   
+   * Choose <Other> -\> <Checkout Projects from SVN>
+   
+   * Click <Next \>>
+   
+   * Select <Create a new repository location>
+   
+   * Click <Next \>>
+   
+   * Enter <<https://maven-sar.svn.sourceforge.net/svnroot/maven-sar>>
+   
+   * Click <Next \>>
+   
+   * Select <trunk>
+   
+   * Click <Next \>>
+   
+   * Click <Finish>
+
+* Enable Maven Dependency Management
+
+   * Right click on the project (the <maven-sar-plugin [trunk]> title)
+   
+   * Choose <Maven> -\> <Enable Dependency Management>
+
+* Import Code Formatter Profile
+
+   * Download {{{eclipse-code-formatter.xml}eclipse-code-formatter.xml}}
+
+   * Go to <Window> -\> <Preferences>
+   
+   * Drill down to <Java> -\> <Code Style> -\> <Formatter>
+   
+   * Click <Import...>
+   
+   * Browse to the location where you downloaded <eclipse-code-formatter.xml>
+   
+   * Click <Apply>
+   
+   * Click <OK>
+   
