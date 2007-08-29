@@ -1,0 +1,13 @@
+<projectDescription>
+  <name>maven-sar-plugin</name>
+  <comment>This plugin generates JBoss Service Archive (sar) files.</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
