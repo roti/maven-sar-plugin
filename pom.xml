@@ -63,28 +63,6 @@
         <role>Developer</role>
       </roles>
     </developer>
-    <developer>
-      <id>mjgagne</id>
-      <name>Matt Gagne</name>
-      <email>matt.gagne@state.vt.us</email>
-      <organization>Vermont Department of Taxes</organization>
-      <organizationUrl>http://tax.vermont.gov/</organizationUrl>
-      <timezone>-4</timezone>
-      <roles>
-        <role>Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>skasulka</id>
-      <name>Shawn Kasulka</name>
-      <email>shawn.kasulka@state.vt.us</email>
-      <organization>Vermont Department of Taxes</organization>
-      <organizationUrl>http://tax.vermont.gov/</organizationUrl>
-      <timezone>-4</timezone>
-      <roles>
-        <role>Developer</role>
-      </roles>
-    </developer>
   </developers>
   <issueManagement>
     <system>SourceForge</system>
