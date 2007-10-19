@@ -39,9 +39,10 @@
 		</menu>
     <menu name="Other VT Tax Projects">
       <item name="Gateway" href="http://gateway.sourceforge.net/"/>
-      <item name="Gateway Anti-Virus" href="http://gatewayav.sourceforge.net/"/>
       <item name="locale4j" href="http://locale4j.sourceforge.net/"/>
+      <item name="cshampoo" href="http://cshampoo.sourceforge.net/"/>
       <item name="maven-har-plugin" href="http://maven-har.sourceforge.net/"/>
+      <item name="Gateway Anti-Virus" href="http://gatewayav.sourceforge.net/"/>
     </menu>
 	</body>
 </project>
