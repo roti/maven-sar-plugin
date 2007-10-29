@@ -3,7 +3,7 @@
  ------
  Tom Cort <tom.cort@state.vt.us>
  ------
- 28 August 2007
+ 29 October 2007
  ------
 
 Building a SAR and a JAR
@@ -21,7 +21,7 @@ Building a SAR and a JAR
       <plugin>
         <groupId>net.sf.maven-sar</groupId>
         <artifactId>maven-sar-plugin</artifactId>
-        <version>0.9</version>
+        <version>1.0</version>
         <extensions>true</extensions>
       </plugin>
       ...
