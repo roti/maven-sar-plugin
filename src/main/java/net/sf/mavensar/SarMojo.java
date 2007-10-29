@@ -117,7 +117,7 @@ public class SarMojo extends AbstractMojo {
     /**
      * List of files in include in the SAR.
      */
-    private static final String[] INCLUDES = new String[] { "**/*.xml" };
+    private static final String[] INCLUDES = new String[] { "**/*.xml", "**/*.class" };
 
     /**
      * Executes the task. In this case, packages the sar.
