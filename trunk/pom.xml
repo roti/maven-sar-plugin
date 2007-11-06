@@ -148,6 +148,7 @@
               <doapFile>${basedir}/target/site/doap.rdf</doapFile>
               <category>maven-plugin</category>
               <language>java</language>
+              <templateFile>src/site/site.vm</templateFile>
             </configuration>
           </execution>
         </executions>
@@ -223,6 +224,12 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <configuration>
+          <templateFile>src/site/site.vm</templateFile>
+        </configuration>
       </plugin>
     </plugins>
   </build>
