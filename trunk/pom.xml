@@ -60,12 +60,12 @@
   <distributionManagement>
     <site>
       <id>website</id>
-      <url>scp://shell.sf.net/home/groups/m/ma/maven-sar/htdocs/</url>
+      <url>scp://web.sf.net/home/groups/m/ma/maven-sar/htdocs/</url>
     </site>
     <repository>
       <id>repository</id>
       <name>Repository</name>
-      <url>scp://shell.sf.net/home/groups/m/ma/maven-sar/maven/upload-repo/</url>
+      <url>scp://web.sf.net/home/groups/m/ma/maven-sar/maven/upload-repo/</url>
     </repository>
   </distributionManagement>
   <mailingLists>
